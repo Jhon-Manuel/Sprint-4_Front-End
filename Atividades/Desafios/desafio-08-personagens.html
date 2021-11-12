@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        let personagens = [{
+    nome: "Capitão Cometa",
+    dataAparicao: 1951,
+    editora: "DC"
+}, {
+    nome: "Lanterna Verde",
+    dataAparicao: 1940,
+    editora: "DC"
+}, {
+    nome: "Ciborgue",
+    dataAparicao: 1980,
+    editora: "DC"
+}, {
+    nome: "Homem Aranha",
+    dataAparicao: 1962,
+    editora: "Marvel"
+}, {
+    nome: "Homem de Ferro",
+    dataAparicao: 1963,
+    editora: "Marvel"
+}, {
+    nome: "Capitão América",
+    dataAparicao: 1940,
+    editora: "Marvel"
+}];
+
+// 1.   Liste somente os personagens cuja editora seja Marvel;
+//
+        var editoraBuscada = "DC"
+
+        function FiltroPorEditora(p) {
+            return p.editora == editoraBuscada 
+        }
+
+        const PersonagemDaEditora = personagens.filter(FiltroPorEditora)
+
+        console.log("\n Personagens Da " + editoraBuscada +" :","\n", PersonagemDaEditora)
+
+
+
+// 2.	Liste somente os personagem cuja data de Aparição seja superior a 1950;
+//
+        var dataAparicaoBuscada = 1950
+
+        function FiltroPorAparicao(a) {
+            return a.dataAparicao > dataAparicaoBuscada
+        }
+
+        const PersonagemDaData = personagens.filter(FiltroPorAparicao)
+
+        console.log("\n Persongens De " + dataAparicaoBuscada + " : \n" , PersonagemDaData)
+
+
+
+// 3.	Some a idade de todos os personagens;
+//
+        var anoAtual = new Date().getFullYear()
+
+        const IdadePersonagem = personagens.map((m) => {
+             return Math.abs(m.dataAparicao - anoAtual)
+        })
+
+        //console.log(IdadePersonagem)
+        
+        const SomaIdadePersongens = IdadePersonagem.reduce((a,b) => a + b)
+
+        console.log("\n Soma Total De Todas As Idades Dos Personagens é de : " , SomaIdadePersongens)
+
+
+
+// 4.	Traga somente os nomes dos personagens;
+//
+        var listaNomesPersonagens = personagens.map((a) => a.nome )
+
+        console.log("\n Lista dos Nomes Dos Personagens : \n", listaNomesPersonagens)
+
+
+// 5.	Adicione mais um personagem chamado Capitã Marvel, data de Aparição 1977 e editora Marvel;
+//
+        var novoPersonagem = {
+            nome: "Capitã Marvel",
+            dataAparicao = 1977,
+            editora = "Marvel"
+        }
+
+        personagens.push(novoPersonagem)
+
+        console.log(personagens)
+        
+        //personagens.splice(9,1)
+
+// 6. Mostre a quantidade de personagens da Marvel que possuem na lista
+//
+        const quantPersonagensMarvel = personagens.map((p) => {
+            p.editora === "Marvel"
+            if (true) {
+                var a = 0
+                a + 1
+            }
+            return a
+        })
+
+
+
+// 7. Mostre o nome e a idade dos personagens
+//      
+        const IdadeENome = personagens.map((p) => {
+            var listaNome = p.nome
+            var listaIdade = Math.abs(p.dataAparicao - 2021)
+            return ("Nome : "+ listaNome + "   Idade : "+ listaIdade)
+         })
+        console.log(IdadeENome)
+
+    </script>
+
+</body>
+
+</html>
