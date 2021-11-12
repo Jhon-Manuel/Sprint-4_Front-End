@@ -19,7 +19,7 @@ namespace Senai_SP_Medical_Group_WebApi.Contexts
         }
 
         public virtual DbSet<Clinica> Clinicas { get; set; }
-        public virtual DbSet<Consultum> Consulta { get; set; }
+        public virtual DbSet<Consulta> Consulta { get; set; }
         public virtual DbSet<Especialidade> Especialidades { get; set; }
         public virtual DbSet<Medico> Medicos { get; set; }
         public virtual DbSet<Paciente> Pacientes { get; set; }
@@ -79,7 +79,7 @@ namespace Senai_SP_Medical_Group_WebApi.Contexts
                     .HasColumnName("razaoSocial");
             });
 
-            modelBuilder.Entity<Consultum>(entity =>
+            modelBuilder.Entity<Consulta>(entity =>
             {
                 entity.HasKey(e => e.IdConsulta)
                     .HasName("PK__CONSULTA__CA9C61F5E6A891F6");

@@ -9,12 +9,12 @@ namespace Senai_SP_Medical_Group_WebApi.Domains
     {
         public Situacao()
         {
-            Consulta = new HashSet<Consultum>();
+            Consulta = new HashSet<Consulta>();
         }
 
         public byte IdSituacao { get; set; }
         public string TipoSituacao { get; set; }
 
-        public virtual ICollection<Consultum> Consulta { get; set; }
+        public virtual ICollection<Consulta> Consulta { get; set; }
     }
 }

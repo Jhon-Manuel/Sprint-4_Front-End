@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Senai_SP_Medical_Group_WebApi.Domains
 {
-    public partial class Consultum
+    public partial class Consulta
     {
         public short IdConsulta { get; set; }
         public short? IdPaciente { get; set; }

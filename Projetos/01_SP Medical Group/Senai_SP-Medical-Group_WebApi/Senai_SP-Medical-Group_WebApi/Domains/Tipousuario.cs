@@ -13,7 +13,7 @@ namespace Senai_SP_Medical_Group_WebApi.Domains
         }
 
         public short IdTipoUsuario { get; set; }
-        public string TipoUsuario1 { get; set; }
+        public string TipoUsuario { get; set; }
 
         public virtual ICollection<Usuario> Usuarios { get; set; }
     }

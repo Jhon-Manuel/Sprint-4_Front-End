@@ -9,7 +9,7 @@ namespace Senai_SP_Medical_Group_WebApi.Domains
     {
         public Medico()
         {
-            Consulta = new HashSet<Consultum>();
+            Consulta = new HashSet<Consulta>();
         }
 
         public byte IdMedico { get; set; }
@@ -20,6 +20,6 @@ namespace Senai_SP_Medical_Group_WebApi.Domains
 
         public virtual Especialidade IdEspecialidadeNavigation { get; set; }
         public virtual Usuario IdUsuarioNavigation { get; set; }
-        public virtual ICollection<Consultum> Consulta { get; set; }
+        public virtual ICollection<Consulta> Consulta { get; set; }
     }
 }
