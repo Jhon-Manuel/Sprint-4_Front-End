@@ -26,6 +26,7 @@ namespace Senai_SP_Medical_Group_WebApi.Contexts
         public virtual DbSet<Situacao> Situacaos { get; set; }
         public virtual DbSet<Tipousuario> Tipousuarios { get; set; }
         public virtual DbSet<Usuario> Usuarios { get; set; }
+        public object Consultas { get; internal set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

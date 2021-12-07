@@ -56,3 +56,12 @@ C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medi
 C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\ref\Senai_SP-Medical-Group_WebApi.dll
 C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.pdb
 C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.genruntimeconfig.cache
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.csproj.AssemblyReference.cache
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.AssemblyInfoInputs.cache
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.AssemblyInfo.cs
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.csproj.CoreCompileInputs.cache
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.dll
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\ref\Senai_SP-Medical-Group_WebApi.dll
+C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.pdb
