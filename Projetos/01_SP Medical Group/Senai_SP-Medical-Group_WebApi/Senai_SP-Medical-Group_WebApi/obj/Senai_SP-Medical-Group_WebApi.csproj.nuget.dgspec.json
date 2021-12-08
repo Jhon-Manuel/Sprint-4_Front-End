@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\52518284893\\Desktop\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj": {}
+    "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\52518284893\\Desktop\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj": {
+    "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\52518284893\\Desktop\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj",
         "projectName": "Senai_SP-Medical-Group_WebApi",
-        "projectPath": "C:\\Users\\52518284893\\Desktop\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj",
-        "packagesPath": "C:\\Users\\52518284893\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\52518284893\\Desktop\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\obj\\",
+        "projectPath": "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi.csproj",
+        "packagesPath": "C:\\Users\\jhonc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhonc\\OneDrive\\Área de Trabalho\\Sprint-4_Front-End\\Projetos\\01_SP Medical Group\\Senai_SP-Medical-Group_WebApi\\Senai_SP-Medical-Group_WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\52518284893\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jhonc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
