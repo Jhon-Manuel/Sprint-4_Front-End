@@ -65,3 +65,14 @@ C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Sen
 C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.dll
 C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\ref\Senai_SP-Medical-Group_WebApi.dll
 C:\Users\52518284893\Desktop\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.pdb
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Senai_SP-Medical-Group_WebApi.xml
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jhonc\OneDrive\Área de Trabalho\Sprint-4_Front-End\Projetos\01_SP Medical Group\Senai_SP-Medical-Group_WebApi\Senai_SP-Medical-Group_WebApi\obj\Debug\net5.0\Senai_SP-Medical-Group_WebApi.xml

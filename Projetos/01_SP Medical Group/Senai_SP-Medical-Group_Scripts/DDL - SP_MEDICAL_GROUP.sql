@@ -58,4 +58,12 @@ CREATE TABLE CONSULTA(
  idSituacao TINYINT FOREIGN KEY REFERENCES SITUACAO(idSituacao),
  dataConsulta DATETIME NOT NULL,
 );
+
+create table imagemUsuario(
+ idImageUsuario int primary key identity,
+ idUsuario smallint not null unique foreign key references USUARIO(idUsuario),
+ BINARY VARBINARY(max) not null,
+ mimeType varchar(30) not null,
+ nomeArquivo varchar(250) not null,
+);
  

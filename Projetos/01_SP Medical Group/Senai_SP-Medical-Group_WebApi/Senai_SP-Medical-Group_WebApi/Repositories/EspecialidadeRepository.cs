@@ -16,30 +16,38 @@ namespace Senai_SP_Medical_Group_WebApi.Repositories
         {
             Especialidade especialidadeBuscada = ctx.Especialidades.Find(idEspecialidade);
 
-            if (especialidadeAtualizado.)
+            if (especialidadeAtualizado.TipoEspecialidade != null)
             {
-
+                especialidadeBuscada.TipoEspecialidade = especialidadeAtualizado.TipoEspecialidade; 
             }
+
+            ctx.Especialidades.Update(especialidadeBuscada);
+
+            ctx.SaveChanges();
         }
 
         public Especialidade BuscarPorId(int idEspecialidade)
         {
-            throw new NotImplementedException();
+            return ctx.Especialidades.FirstOrDefault(e => e.IdEspecialidade == idEspecialidade);
         }
 
         public void Cadastrar(Especialidade novoEspecialidade)
         {
-            throw new NotImplementedException();
+            ctx.Especialidades.Add(novoEspecialidade);
+
+            ctx.SaveChanges();
         }
 
         public void Deletar(int idEspecialidade)
         {
-            throw new NotImplementedException();
+            ctx.Especialidades.Remove(BuscarPorId(idEspecialidade));
+
+            ctx.SaveChanges();
         }
 
         public List<Especialidade> ListarTodos()
         {
-            throw new NotImplementedException();
+            return ctx.Especialidades.ToList();
         }
     }
 }

@@ -8,6 +8,8 @@ namespace Senai_SP_Medical_Group_WebApi.Interfaces
 {
     interface IUsuarioRepository
     {
+        Usuario Login(string email, string senha);
+
         List<Usuario> ListarTodos();
 
         Usuario BuscarPorId(int idUsuarioo);

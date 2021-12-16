@@ -14,6 +14,7 @@ namespace Senai_SP_Medical_Group_WebApi.Domains
         public byte? IdSituacao { get; set; }
 
         [Required(ErrorMessage = "Informe a data da consulta")]
+        [DataType(DataType.Date)]
         public DateTime DataConsulta { get; set; }
 
         public virtual Medico IdMedicoNavigation { get; set; }

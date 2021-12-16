@@ -264,12 +264,12 @@ namespace Senai_SP_Medical_Group_WebApi.Contexts
 
                 entity.ToTable("TIPOUSUARIO");
 
-                entity.HasIndex(e => e.TipoUsuario1, "UQ__TIPOUSUA__A9585C058F2A66E0")
+                entity.HasIndex(e => e.TipoUsuario, "UQ__TIPOUSUA__A9585C058F2A66E0")
                     .IsUnique();
 
                 entity.Property(e => e.IdTipoUsuario).HasColumnName("idTipoUsuario");
 
-                entity.Property(e => e.TipoUsuario1)
+                entity.Property(e => e.TipoUsuario)
                     .IsRequired()
                     .HasMaxLength(80)
                     .IsUnicode(false)
