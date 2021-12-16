@@ -29,7 +29,7 @@ namespace Senai_SP_Medical_Group_WebApi
                 options.AddPolicy("CorsPolicy",
                                   builder =>
                                   {
-                                      builder.WithOrigins("http://localhost:3000")
+                                      builder.WithOrigins("*")
                                         .AllowAnyHeader()
                                         .AllowAnyMethod();
                                   });
@@ -77,10 +77,6 @@ namespace Senai_SP_Medical_Group_WebApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
-
-            app.UseCors("CorsPolicy");
-
             app.UseSwagger();
 
             app.UseSwaggerUI(options =>
@@ -88,6 +84,12 @@ namespace Senai_SP_Medical_Group_WebApi
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
                 options.RoutePrefix = string.Empty;
             });
+
+            app.UseRouting();
+
+            app.UseCors("CorsPolicy");
+
+
 
             app.UseAuthentication();
 

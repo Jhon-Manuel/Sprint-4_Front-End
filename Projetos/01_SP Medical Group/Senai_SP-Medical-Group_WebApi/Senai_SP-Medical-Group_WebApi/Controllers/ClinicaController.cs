@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Senai_SP_Medical_Group_WebApi.Controllers
 {
-    [Produces("application;json")]
+    [Produces("application/json")]
 
     [Route("api/[controller]")]
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Routes, Navigation } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 import './index.css';
 
 import App from './pages/home/App';
-import Agendamento from './pages/agendamentos/agendamento';
+import Agendamento from './pages/agendamento/agendamento';
 import Especialidades  from './pages/especialidade/especialidade';
 import Login from './pages/login/login';
 import Perfil from './pages/perfil/perfil';
@@ -19,8 +19,7 @@ const routing = (
        <Routes>
          <Route exatc path="/" component={App} />
          <Route path="/agendamento" component={Agendamento} />
-         <Route path="/especialidade" 
-         component={Especialidades} />
+         <Route path="/especialidade" component={Especialidades} />
          <Route path="/login" component={Login} />
          <Route path="/perfil" component={Perfil} />
          <Route path="/notFound" component={NotFound} />

@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-export default class Agendamento extends Component{
+export default class Consulta extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -12,7 +12,7 @@ export default class Agendamento extends Component{
 
     buscarAgendamentos = () => {
 
-        fetch('http://localhost/api/agendamento')
+        fetch('http://localhost:5000/api/Consulta')
 
         .then( resposta => resposta.json())
         
@@ -29,7 +29,7 @@ export default class Agendamento extends Component{
         return(
             <div>
                 <main>
-                    <section>
+                    <section className ="containerAgendamentos">
                         <h1>Agendamentos</h1>
                         <table>
                             <thead>
@@ -55,7 +55,7 @@ export default class Agendamento extends Component{
                                             <tr key= {agendamento.idConsulta}>
                                                 <td>{agendamento.tipoEspecialdade}</td>
                                                 <td>{agendamento.Nome}</td>
-                                                <td>{agendamento.DataConsulta}</tr>
+                                                <td>{agendamento.DataConsulta}</td>
                                                 <td>{agendamento.TipoSituacao}</td>
                                             </tr>
                             
@@ -75,3 +75,5 @@ export default class Agendamento extends Component{
         
     }
 }
+
+c
